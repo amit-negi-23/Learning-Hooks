@@ -1,4 +1,5 @@
 import './App.css';
+import ContextApi from './contextApi';
 import Counter from './hookuseReducer';
 import PropDrilling from './propDrilling'
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <PropDrilling/>
 
       <hr/><hr/>
+      <ContextApi/>
     </div>
   );
 }
