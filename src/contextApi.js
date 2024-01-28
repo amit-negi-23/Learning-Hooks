@@ -21,7 +21,7 @@ export default function ContextApi() {
         <StudentContext.Provider value={student}>
             <FacultyContext.Provider value={faculty}>
                 <div>
-                    <h1>Topic:- ContextApi</h1>
+                    <h1>Topic:- ContextApi with useContext</h1>
                     <ChildX />
                 </div>
             </FacultyContext.Provider>
