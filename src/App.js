@@ -1,4 +1,5 @@
 import './App.css';
+import TaniyaVideo from './Video';
 import ContextApi from './contextApi';
 import Counter from './hookuseReducer';
 import PropDrilling from './propDrilling'
@@ -15,6 +16,8 @@ function App() {
       <hr/><hr/>
 
       <UseRef/>
+      <hr/><hr/>
+      <TaniyaVideo/>
     </div>
   );
 }
