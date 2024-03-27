@@ -2,6 +2,7 @@ import './App.css';
 import ContextApi from './contextApi';
 import Counter from './hookuseReducer';
 import PropDrilling from './propDrilling'
+import UseRef from './useRef';
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,9 @@ function App() {
 
       <hr/><hr/>
       <ContextApi/>
+      <hr/><hr/>
+
+      <UseRef/>
     </div>
   );
 }
