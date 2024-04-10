@@ -18,6 +18,8 @@ function App() {
       <UseRef/>
       <hr/><hr/>
       <TaniyaVideo/>
+
+      <p>Hello i am amit negi</p>
     </div>
   );
 }
